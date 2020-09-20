@@ -4,8 +4,8 @@
 function solution(A, K) {
     // write your code in JavaScript (Node.js 8.9.4)
     const l = A.length;
-    const Kr= K%l;  
-    if (Kr = 0){
+    let Kr = K%l;  
+    if (Kr === 0){
         return A;
     }
     else{
@@ -18,5 +18,6 @@ function solution(A, K) {
                 RotatedA[i + Kr -l] = A[i];
             }
         }
+        return RotatedA;
     }
 }
