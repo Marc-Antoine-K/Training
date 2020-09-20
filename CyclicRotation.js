@@ -3,7 +3,7 @@
 
 function solution(A, K) {
     // write your code in JavaScript (Node.js 8.9.4)
-    const A.length = l;
+    const l = A.length;
     const Kr= K%l;  
     if (Kr = 0){
         return A;
