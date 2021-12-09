@@ -30,3 +30,14 @@ function solution(A) {
   }
   return result(map);
 } */
+
+/* function solution(A) {
+  // write your code in JavaScript (Node.js 8.9.4)
+  let l = A.length;
+  let tab = A.sort();
+  let result = 0;
+  for(let i = 0; i < l; i++){
+      result += (-1)**i * tab[i];
+  }
+  return result > 0 ? result : -result;
+} */
